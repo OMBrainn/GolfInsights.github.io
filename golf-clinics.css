@@ -1,0 +1,1836 @@
+.event-card-wrapper {
+  display: contents;
+}
+ 
+.event-card-event-card {
+  width: 475px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.event-card-container {
+  width: 475px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+ 
+.event-card-text1 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: "Montserrat";
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+ 
+.event-card-text2 {
+  color: var(--dl-color-gray-500);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+}
+ 
+.event-card-location {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.event-card-price-text {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.golf-clinics-fragment11 {
+  display: contents;
+}
+ 
+.golf-clinics-text31 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment13 {
+  display: contents;
+}
+ 
+.golf-clinics-text33 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment10 {
+  display: contents;
+}
+ 
+.golf-clinics-text30 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment12 {
+  display: contents;
+}
+ 
+.golf-clinics-text32 {
+  display: inline-block;
+}
+ 
+.event-cardroot-class-name {
+  display: none;
+}
+ 
+.event-cardroot-class-name1 {
+  display: none;
+}
+ 
+.event-cardroot-class-name2 {
+  display: none;
+}
+ 
+.event-cardroot-class-name3 {
+  display: none;
+}
+ 
+.event-cardroot-class-name4 {
+  display: none;
+}
+ 
+.event-cardroot-class-name5 {
+  display: none;
+}
+ 
+.event-cardroot-class-name6 {
+  display: none;
+}
+ 
+.event-cardroot-class-name7 {
+  display: none;
+}
+ 
+.event-cardroot-class-name8 {
+  display: none;
+}
+ 
+.event-cardroot-class-name9 {
+  display: none;
+}
+ 
+.event-cardroot-class-name10 {
+  display: none;
+}
+ 
+.event-cardroot-class-name11 {
+  display: none;
+}
+ 
+@media(max-width: 1440px) {
+  .event-card-event-card {
+    height: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text1 {
+    font-size: 1.5em;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text2 {
+    font-size: 20px;
+  }
+  .event-card-location {
+    font-size: 15px;
+  }
+  .event-card-price-text {
+    font-size: 15px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .event-card-event-card {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .event-card-event-card {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container {
+    gap: 0;
+    width: 475px;
+    justify-content: center;
+  }
+  .event-card-text1 {
+    font-size: 2em;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text2 {
+    font-size: 20px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-location {
+    font-size: 20px;
+  }
+  .event-card-price-text {
+    font-size: 20px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .event-card-event-card {
+    width: 475px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .event-card-container {
+    width: 475px;
+    max-width: auto;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text1 {
+    margin-bottom: 0px;
+  }
+  .event-card-text2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .event-card-event-card {
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .event-card-container {
+    width: 445px;
+    max-width: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text1 {
+    margin-bottom: 0px;
+  }
+  .event-card-text2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .event-cardroot-class-name2 {
+    display: none;
+  }
+  .event-cardroot-class-name3 {
+    display: none;
+  }
+  .event-cardroot-class-name6 {
+    display: none;
+  }
+  .event-cardroot-class-name9 {
+    display: none;
+  }
+}
+
+.event-card-wrapper-0yzb {
+  display: contents;
+}
+ 
+.event-card-event-card1 {
+  width: 475px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.event-card-container1 {
+  width: 475px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+ 
+.event-card-text3 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: "Montserrat";
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+ 
+.event-card-text4 {
+  color: var(--dl-color-gray-500);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+}
+ 
+.event-card-location1 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.event-card-price-text1 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.golf-clinics-fragment15 {
+  display: contents;
+}
+ 
+.golf-clinics-text35 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment17 {
+  display: contents;
+}
+ 
+.golf-clinics-text37 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment14 {
+  display: contents;
+}
+ 
+.golf-clinics-text34 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment16 {
+  display: contents;
+}
+ 
+.golf-clinics-text36 {
+  display: inline-block;
+}
+ 
+.event-cardroot-class-name {
+  display: none;
+}
+ 
+.event-cardroot-class-name1 {
+  display: none;
+}
+ 
+.event-cardroot-class-name2 {
+  display: none;
+}
+ 
+.event-cardroot-class-name3 {
+  display: none;
+}
+ 
+.event-cardroot-class-name4 {
+  display: none;
+}
+ 
+.event-cardroot-class-name5 {
+  display: none;
+}
+ 
+.event-cardroot-class-name6 {
+  display: none;
+}
+ 
+.event-cardroot-class-name7 {
+  display: none;
+}
+ 
+.event-cardroot-class-name8 {
+  display: none;
+}
+ 
+.event-cardroot-class-name9 {
+  display: none;
+}
+ 
+.event-cardroot-class-name10 {
+  display: none;
+}
+ 
+.event-cardroot-class-name11 {
+  display: none;
+}
+ 
+@media(max-width: 1440px) {
+  .event-card-event-card1 {
+    height: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container1 {
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text3 {
+    font-size: 1.5em;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text4 {
+    font-size: 20px;
+  }
+  .event-card-location1 {
+    font-size: 15px;
+  }
+  .event-card-price-text1 {
+    font-size: 15px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .event-card-event-card1 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .event-card-event-card1 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container1 {
+    gap: 0;
+    width: 475px;
+    justify-content: center;
+  }
+  .event-card-text3 {
+    font-size: 2em;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text4 {
+    font-size: 20px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-location1 {
+    font-size: 20px;
+  }
+  .event-card-price-text1 {
+    font-size: 20px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .event-card-event-card1 {
+    width: 475px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .event-card-container1 {
+    width: 475px;
+    max-width: auto;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text3 {
+    margin-bottom: 0px;
+  }
+  .event-card-text4 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .event-card-event-card1 {
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .event-card-container1 {
+    width: 445px;
+    max-width: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .event-card-text3 {
+    margin-bottom: 0px;
+  }
+  .event-card-text4 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .event-cardroot-class-name2 {
+    display: none;
+  }
+  .event-cardroot-class-name3 {
+    display: none;
+  }
+  .event-cardroot-class-name6 {
+    display: none;
+  }
+  .event-cardroot-class-name9 {
+    display: none;
+  }
+}
+
+.footer1-wrapper {
+  display: contents;
+}
+ 
+.footer1-footer1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.footer1-max-width {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer1-content {
+  gap: var(--dl-space-space-fourunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+ 
+.footer1-newsletter {
+  gap: 24px;
+  width: 500px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.footer1-image1 {
+  width: 10vw;
+  text-decoration: none;
+}
+ 
+.footer1-content1 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-actions {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer1-form {
+  height: auto;
+  margin: 0px;
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+}
+ 
+.footer1-container {
+  width: 365px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.footer1-text-input {
+  gap: 8px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  font-size: 16px;
+  box-sizing: content-box;
+  text-align: left;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: transparent;
+}
+ 
+.footer1-button {
+  color: #017a48;
+  transition: 0.3s;
+  border-color: #017a48;
+}
+ 
+.footer1-button:hover {
+  color: #000000;
+  border-color: #000000;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.footer1-action1 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-content2 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.footer1-links {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+ 
+.footer1-column1 {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 300px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.footer1-column1-title {
+  font-family: "Montserrat";
+}
+ 
+.footer1-footer-links {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer1-link1 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link21 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link22 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link23 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link24 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link25 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-column3 {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 300px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.footer1-social-link1-title {
+  font-family: "Montserrat";
+}
+ 
+.footer1-social-links {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer1-link3 {
+  gap: 12px;
+  display: none;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.footer1-social-link1 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-link4 {
+  display: contents;
+}
+ 
+.footer1-link5 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+ 
+.footer1-social-link2 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-link6 {
+  gap: 12px;
+  display: none;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.footer1-social-link3 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-link7 {
+  gap: 12px;
+  display: none;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.footer1-social-link4 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-link8 {
+  display: contents;
+}
+ 
+.footer1-link9 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+ 
+.footer1-social-link5 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-fragment23 {
+  display: contents;
+}
+ 
+.golf-clinics-text43 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment19 {
+  display: contents;
+}
+ 
+.golf-clinics-text39 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment20 {
+  display: contents;
+}
+ 
+.golf-clinics-text40 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment27 {
+  display: contents;
+}
+ 
+.golf-clinics-text47 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment25 {
+  display: contents;
+}
+ 
+.golf-clinics-text45 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment22 {
+  display: contents;
+}
+ 
+.golf-clinics-text42 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment24 {
+  display: contents;
+}
+ 
+.golf-clinics-text44 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment21 {
+  display: contents;
+}
+ 
+.golf-clinics-text41 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment18 {
+  display: contents;
+}
+ 
+.golf-clinics-text38 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment26 {
+  display: contents;
+}
+ 
+.golf-clinics-text46 {
+  display: inline-block;
+}
+ 
+
+ 
+.footer1root-class-name1 {
+  left: 0px;
+  bottom: 0px;
+  position: relative;
+}
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+@media(max-width: 991px) {
+  .footer1-newsletter {
+    width: 300px;
+  }
+  .footer1-container {
+    width: 100%;
+  }
+  .footer1-text-input {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .footer1-button {
+    width: 100%;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .footer1-content {
+    flex-direction: column;
+  }
+  .footer1-newsletter {
+    width: 100%;
+  }
+  .footer1-container {
+    width: 100%;
+  }
+  .footer1-button {
+    width: 208px;
+  }
+  .footer1-links {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer1-column1 {
+    align-items: center;
+  }
+  .footer1-column1-title {
+    text-align: center;
+  }
+  .footer1-footer-links {
+    align-self: center;
+  }
+  .footer1-column3 {
+    align-items: center;
+  }
+  .footer1-social-link1-title {
+    text-align: center;
+  }
+  .footer1-social-links {
+    align-self: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .footer1-actions {
+    width: 100%;
+  }
+  .footer1-container {
+    width: 100%;
+  }
+  .footer1-button {
+    width: 100%;
+  }
+  .footer1-links {
+    flex-direction: column;
+  }
+  .footer1-column1 {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer1-footer-links {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer1-column3 {
+    width: 100%;
+    display: none;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer1-social-links {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.golf-clinics-container10 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-programs-events {
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-container11 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/external/dsc4-1500w-1500w.jpg");
+}
+ 
+.golf-clinics-container12 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+ 
+.golf-clinics-nav-bar {
+  width: 80%;
+  display: flex;
+  z-index: 100;
+  margin-top: 30px;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: #000000;
+  border-style: groove;
+  border-width: 3px;
+  padding-left: var(--dl-space-space-threeunits);
+  border-radius: var(--dl-radius-radius-buttonradius);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+ 
+.golf-clinics-navlink1 {
+  display: contents;
+}
+ 
+.golf-clinics-image1 {
+  height: 3rem;
+  text-decoration: none;
+}
+ 
+.golf-clinics-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.golf-clinics-links1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.golf-clinics-link11 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.golf-clinics-link21 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.golf-clinics-link31 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.golf-clinics-link41 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.golf-clinics-link51 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.golf-clinics-buttons1 {
+  gap: var(--dl-space-space-twounits);
+  display: none;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.golf-clinics-action21 {
+  color: #000000;
+  display: flex;
+  font-family: "Montserrat";
+  border-color: #000000;
+  flex-direction: row;
+}
+ 
+.golf-clinics-text10 {
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.golf-clinics-burger-menu {
+  display: none;
+}
+ 
+.golf-clinics-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+ 
+.golf-clinics-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-space-space-twounits);
+  z-index: 100;
+  position: absolute;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: groove;
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.golf-clinics-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.golf-clinics-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.golf-clinics-navlink2 {
+  display: contents;
+}
+ 
+.golf-clinics-logo {
+  height: 3rem;
+  text-decoration: none;
+}
+ 
+.golf-clinics-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.golf-clinics-icon12 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+ 
+.golf-clinics-links2 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.golf-clinics-link12 {
+  text-decoration: none;
+}
+ 
+.golf-clinics-link22 {
+  text-decoration: none;
+}
+ 
+.golf-clinics-link32 {
+  text-decoration: none;
+}
+ 
+.golf-clinics-link42 {
+  text-decoration: none;
+}
+ 
+.golf-clinics-link52 {
+  text-decoration: none;
+}
+ 
+.golf-clinics-buttons2 {
+  gap: var(--dl-space-space-twounits);
+  display: none;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.golf-clinics-action22 {
+  color: #000000;
+  border-color: #000000;
+}
+ 
+.golf-clinics-icon-group {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+}
+ 
+.golf-clinics-text12 {
+  fill: #bd9d5a;
+  color: rgb(189, 157, 90);
+  font-size: 10vw;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-shadow: 0px 0px 0px black, /* Right shadow */                 -0px 0px 0px black, /* Left shadow */                 0px 0px 0px black, /* Top shadow */                 2px 2px 0px black;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+ 
+.golf-clinics-text13 {
+  font-size: 72px;
+}
+ 
+.golf-clinics-program-nav {
+  gap: var(--dl-space-space-fourunits);
+  width: 100%;
+  display: flex;
+  border-color: #000000;
+  border-width: 1px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  justify-content: center;
+  background-color: #017A48;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+ 
+.golf-clinics-navlink3 {
+  display: contents;
+}
+ 
+.golf-clinics-text15 {
+  fill: #bd9d5a;
+  color: rgb(189, 157, 90);
+  font-size: 2em;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-shadow: 0px 0px 0px black, /* Right shadow */                 -0px 0px 0px black, /* Left shadow */                 0px 0px 0px black, /* Top shadow */                 2px 2px 0px black;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+ 
+.golf-clinics-navlink4 {
+  display: contents;
+}
+ 
+.golf-clinics-text16 {
+  fill: #bd9d5a;
+  color: #ffffff;
+  font-size: 2em;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-shadow: 0px 0px 0px black, /* Right shadow */                 -0px 0px 0px black, /* Left shadow */                 0px 0px 0px black, /* Top shadow */                 2px 2px 0px black;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+ 
+.golf-clinics-navlink5 {
+  display: contents;
+}
+ 
+.golf-clinics-text17 {
+  fill: #bd9d5a;
+  color: rgb(189, 157, 90);
+  font-size: 2em;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-shadow: 0px 0px 0px black, /* Right shadow */                 -0px 0px 0px black, /* Left shadow */                 0px 0px 0px black, /* Top shadow */                 2px 2px 0px black;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+ 
+.golf-clinics-golf-clinic-sign-up {
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-container13 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-text18 {
+  font-size: 3em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+ 
+.golf-clinics-container14 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-text19 {
+  font-size: 2em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+ 
+.golf-clinics-text20 {
+  font-size: 2em;
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-container15 {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-text21 {
+  font-size: 3em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+ 
+.golf-clinics-golf-clinic-form {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 60%;
+  display: none;
+  margin-top: var(--dl-space-space-unit);
+}
+ 
+.golf-clinics-container16 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.golf-clinics-input1 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.golf-clinics-text22 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-text-input1 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-input2 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.golf-clinics-text23 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-text-input2 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-container17 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.golf-clinics-input3 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.golf-clinics-text24 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-text-input3 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-input4 {
+  gap: var(--dl-space-space-halfunit);
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.golf-clinics-text25 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-text-input4 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-container18 {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.golf-clinics-skill-level {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+ 
+.golf-clinics-text26 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-age {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+ 
+.golf-clinics-text27 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-container19 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.golf-clinics-equipment {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.golf-clinics-text28 {
+  font-family: "Montserrat";
+}
+ 
+.golf-clinics-button {
+  align-self: flex-start;
+  font-family: "Montserrat";
+  border-color: #000000;
+  background-color: #017a48;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+}
+ 
+.golf-clinics-tournaments {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: none;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-upcoming-tournaments {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-container20 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.golf-clinics-text29 {
+  font-size: 3em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+ 
+.golf-clinics-fragment10 {
+  display: contents;
+}
+ 
+.golf-clinics-text30 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment11 {
+  display: contents;
+}
+ 
+.golf-clinics-text31 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment12 {
+  display: contents;
+}
+ 
+.golf-clinics-text32 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment13 {
+  display: contents;
+}
+ 
+.golf-clinics-text33 {
+  display: inline-block;
+}
+ 
+.golf-clinics-container21 {
+  gap: var(--dl-space-space-unit);
+  display: grid;
+  align-self: center;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+.golf-clinics-fragment14 {
+  display: contents;
+}
+ 
+.golf-clinics-text34 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment15 {
+  display: contents;
+}
+ 
+.golf-clinics-text35 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment16 {
+  display: contents;
+}
+ 
+.golf-clinics-text36 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment17 {
+  display: contents;
+}
+ 
+.golf-clinics-text37 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment18 {
+  display: contents;
+}
+ 
+.golf-clinics-text38 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment19 {
+  display: contents;
+}
+ 
+.golf-clinics-text39 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment20 {
+  display: contents;
+}
+ 
+.golf-clinics-text40 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment21 {
+  display: contents;
+}
+ 
+.golf-clinics-text41 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment22 {
+  display: contents;
+}
+ 
+.golf-clinics-text42 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment23 {
+  display: contents;
+}
+ 
+.golf-clinics-text43 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment24 {
+  display: contents;
+}
+ 
+.golf-clinics-text44 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment25 {
+  display: contents;
+}
+ 
+.golf-clinics-text45 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment26 {
+  display: contents;
+}
+ 
+.golf-clinics-text46 {
+  display: inline-block;
+}
+ 
+.golf-clinics-fragment27 {
+  display: contents;
+}
+ 
+.golf-clinics-text47 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .golf-clinics-nav-bar {
+    z-index: 100;
+  }
+  .golf-clinics-desktop-menu {
+    display: none;
+  }
+  .golf-clinics-burger-menu {
+    display: flex;
+  }
+  .golf-clinics-icon10 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .golf-clinics-icon12 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .golf-clinics-golf-clinic-form {
+    width: 100%;
+  }
+  .golf-clinics-container16 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .golf-clinics-input1 {
+    width: 50%;
+  }
+  .golf-clinics-input2 {
+    width: 50%;
+    flex-direction: column;
+  }
+  .golf-clinics-container17 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .golf-clinics-input3 {
+    width: 50%;
+  }
+  .golf-clinics-input4 {
+    width: 50%;
+  }
+  .golf-clinics-skill-level {
+    gap: var(--dl-space-space-halfunit);
+    width: 50%;
+    flex-direction: column;
+  }
+  .golf-clinics-age {
+    gap: var(--dl-space-space-halfunit);
+    width: 50%;
+    flex-direction: column;
+  }
+  .golf-clinics-container19 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-direction: row;
+  }
+  .golf-clinics-equipment {
+    gap: var(--dl-space-space-halfunit);
+    width: 50%;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .golf-clinics-nav-bar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .golf-clinics-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .golf-clinics-program-nav {
+    gap: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .golf-clinics-text15 {
+    margin-bottom: 0px;
+  }
+  .golf-clinics-text16 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .golf-clinics-text17 {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .golf-clinics-text18 {
+    text-align: center;
+  }
+  .golf-clinics-tournaments {
+    display: none;
+  }
+  .golf-clinics-container21 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .golf-clinics-nav-bar {
+    padding: var(--dl-space-space-unit);
+    padding-right: 16px;
+  }
+  .golf-clinics-mobile-menu {
+    padding: var(--dl-space-space-unit);
+  }
+  .golf-clinics-golf-clinic-form {
+    padding: var(--dl-space-space-unit);
+  }
+  .golf-clinics-container16 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .golf-clinics-input1 {
+    width: 100%;
+  }
+  .golf-clinics-input2 {
+    width: 100%;
+  }
+  .golf-clinics-container17 {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .golf-clinics-input3 {
+    width: 100%;
+  }
+  .golf-clinics-input4 {
+    width: 100%;
+  }
+}
