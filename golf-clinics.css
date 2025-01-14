@@ -218,7 +218,7 @@
  
 @media(max-width: 479px) {
   .event-card-event-card {
-    width: 445px;
+    width: 400px;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -251,7 +251,7 @@
   }
 }
 
-.event-card-wrapper-k0cg {
+.event-card-wrapper-oqxr {
   display: contents;
 }
  
@@ -471,7 +471,7 @@
  
 @media(max-width: 479px) {
   .event-card-event-card1 {
-    width: 445px;
+    width: 400px;
     flex-direction: column;
     justify-content: space-between;
   }
