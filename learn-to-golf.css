@@ -1,0 +1,2969 @@
+.event-card-wrapper {
+  display: contents;
+}
+ 
+.event-card-event-card {
+  width: 475px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.event-card-container {
+  width: 475px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: center;
+}
+ 
+.event-card-text1 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: "Montserrat";
+  margin-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.event-card-text2 {
+  color: var(--dl-color-gray-500);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-layout-space-halfunit);
+  text-transform: uppercase;
+}
+ 
+.event-card-location {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.event-card-price-text {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.learn-to-golf-fragment11 {
+  display: contents;
+}
+ 
+.learn-to-golf-text34 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment13 {
+  display: contents;
+}
+ 
+.learn-to-golf-text36 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment10 {
+  display: contents;
+}
+ 
+.learn-to-golf-text33 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment12 {
+  display: contents;
+}
+ 
+.learn-to-golf-text35 {
+  display: inline-block;
+}
+ 
+.event-cardroot-class-name {
+  display: none;
+}
+ 
+.event-cardroot-class-name1 {
+  display: none;
+}
+ 
+.event-cardroot-class-name2 {
+  display: none;
+}
+ 
+.event-cardroot-class-name3 {
+  display: none;
+}
+ 
+.event-cardroot-class-name4 {
+  display: none;
+}
+ 
+.event-cardroot-class-name5 {
+  display: none;
+}
+ 
+.event-cardroot-class-name6 {
+  display: none;
+}
+ 
+.event-cardroot-class-name7 {
+  display: none;
+}
+ 
+.event-cardroot-class-name8 {
+  display: none;
+}
+ 
+.event-cardroot-class-name9 {
+  display: none;
+}
+ 
+.event-cardroot-class-name10 {
+  display: none;
+}
+ 
+.event-cardroot-class-name11 {
+  display: none;
+}
+ 
+.event-cardroot-class-name12 {
+  display: none;
+}
+ 
+.event-cardroot-class-name13 {
+  display: none;
+}
+ 
+.event-cardroot-class-name14 {
+  display: none;
+}
+ 
+.event-cardroot-class-name15 {
+  display: none;
+}
+ 
+@media(max-width: 1440px) {
+  .event-card-event-card {
+    height: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container {
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+    padding-right: var(--dl-layout-space-halfunit);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text1 {
+    font-size: 1.5em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text2 {
+    font-size: 20px;
+  }
+  .event-card-location {
+    font-size: 15px;
+  }
+  .event-card-price-text {
+    font-size: 15px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .event-card-event-card {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .event-card-event-card {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container {
+    gap: 0;
+    width: 475px;
+    justify-content: center;
+  }
+  .event-card-text1 {
+    font-size: 2em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text2 {
+    font-size: 20px;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-location {
+    font-size: 20px;
+  }
+  .event-card-price-text {
+    font-size: 20px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .event-card-event-card {
+    width: 475px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .event-card-container {
+    width: 475px;
+    max-width: auto;
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text1 {
+    margin-bottom: 0px;
+  }
+  .event-card-text2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .event-card-event-card {
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .event-card-container {
+    width: 445px;
+    max-width: auto;
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text1 {
+    margin-bottom: 0px;
+  }
+  .event-card-text2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .event-cardroot-class-name2 {
+    display: none;
+  }
+  .event-cardroot-class-name3 {
+    display: none;
+  }
+  .event-cardroot-class-name6 {
+    display: none;
+  }
+  .event-cardroot-class-name9 {
+    display: none;
+  }
+  .event-cardroot-class-name14 {
+    display: none;
+  }
+}
+
+.event-card-wrapper-4n55 {
+  display: contents;
+}
+ 
+.event-card-event-card1 {
+  width: 475px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.event-card-container1 {
+  width: 475px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: center;
+}
+ 
+.event-card-text3 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: "Montserrat";
+  margin-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.event-card-text4 {
+  color: var(--dl-color-gray-500);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-layout-space-halfunit);
+  text-transform: uppercase;
+}
+ 
+.event-card-location1 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.event-card-price-text1 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.learn-to-golf-fragment15 {
+  display: contents;
+}
+ 
+.learn-to-golf-text38 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment17 {
+  display: contents;
+}
+ 
+.learn-to-golf-text40 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment14 {
+  display: contents;
+}
+ 
+.learn-to-golf-text37 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment16 {
+  display: contents;
+}
+ 
+.learn-to-golf-text39 {
+  display: inline-block;
+}
+ 
+.event-cardroot-class-name {
+  display: none;
+}
+ 
+.event-cardroot-class-name1 {
+  display: none;
+}
+ 
+.event-cardroot-class-name2 {
+  display: none;
+}
+ 
+.event-cardroot-class-name3 {
+  display: none;
+}
+ 
+.event-cardroot-class-name4 {
+  display: none;
+}
+ 
+.event-cardroot-class-name5 {
+  display: none;
+}
+ 
+.event-cardroot-class-name6 {
+  display: none;
+}
+ 
+.event-cardroot-class-name7 {
+  display: none;
+}
+ 
+.event-cardroot-class-name8 {
+  display: none;
+}
+ 
+.event-cardroot-class-name9 {
+  display: none;
+}
+ 
+.event-cardroot-class-name10 {
+  display: none;
+}
+ 
+.event-cardroot-class-name11 {
+  display: none;
+}
+ 
+.event-cardroot-class-name12 {
+  display: none;
+}
+ 
+.event-cardroot-class-name13 {
+  display: none;
+}
+ 
+.event-cardroot-class-name14 {
+  display: none;
+}
+ 
+.event-cardroot-class-name15 {
+  display: none;
+}
+ 
+@media(max-width: 1440px) {
+  .event-card-event-card1 {
+    height: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container1 {
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+    padding-right: var(--dl-layout-space-halfunit);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text3 {
+    font-size: 1.5em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text4 {
+    font-size: 20px;
+  }
+  .event-card-location1 {
+    font-size: 15px;
+  }
+  .event-card-price-text1 {
+    font-size: 15px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .event-card-event-card1 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .event-card-event-card1 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container1 {
+    gap: 0;
+    width: 475px;
+    justify-content: center;
+  }
+  .event-card-text3 {
+    font-size: 2em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text4 {
+    font-size: 20px;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-location1 {
+    font-size: 20px;
+  }
+  .event-card-price-text1 {
+    font-size: 20px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .event-card-event-card1 {
+    width: 475px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .event-card-container1 {
+    width: 475px;
+    max-width: auto;
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text3 {
+    margin-bottom: 0px;
+  }
+  .event-card-text4 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .event-card-event-card1 {
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .event-card-container1 {
+    width: 445px;
+    max-width: auto;
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text3 {
+    margin-bottom: 0px;
+  }
+  .event-card-text4 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .event-cardroot-class-name2 {
+    display: none;
+  }
+  .event-cardroot-class-name3 {
+    display: none;
+  }
+  .event-cardroot-class-name6 {
+    display: none;
+  }
+  .event-cardroot-class-name9 {
+    display: none;
+  }
+  .event-cardroot-class-name14 {
+    display: none;
+  }
+}
+
+.event-card-wrapper-ugui {
+  display: contents;
+}
+ 
+.event-card-event-card2 {
+  width: 475px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.event-card-container2 {
+  width: 475px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: center;
+}
+ 
+.event-card-text5 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: "Montserrat";
+  margin-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.event-card-text6 {
+  color: var(--dl-color-gray-500);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-layout-space-halfunit);
+  text-transform: uppercase;
+}
+ 
+.event-card-location2 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.event-card-price-text2 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.learn-to-golf-fragment19 {
+  display: contents;
+}
+ 
+.learn-to-golf-text42 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment21 {
+  display: contents;
+}
+ 
+.learn-to-golf-text44 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment18 {
+  display: contents;
+}
+ 
+.learn-to-golf-text41 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment20 {
+  display: contents;
+}
+ 
+.learn-to-golf-text43 {
+  display: inline-block;
+}
+ 
+.event-cardroot-class-name {
+  display: none;
+}
+ 
+.event-cardroot-class-name1 {
+  display: none;
+}
+ 
+.event-cardroot-class-name2 {
+  display: none;
+}
+ 
+.event-cardroot-class-name3 {
+  display: none;
+}
+ 
+.event-cardroot-class-name4 {
+  display: none;
+}
+ 
+.event-cardroot-class-name5 {
+  display: none;
+}
+ 
+.event-cardroot-class-name6 {
+  display: none;
+}
+ 
+.event-cardroot-class-name7 {
+  display: none;
+}
+ 
+.event-cardroot-class-name8 {
+  display: none;
+}
+ 
+.event-cardroot-class-name9 {
+  display: none;
+}
+ 
+.event-cardroot-class-name10 {
+  display: none;
+}
+ 
+.event-cardroot-class-name11 {
+  display: none;
+}
+ 
+.event-cardroot-class-name12 {
+  display: none;
+}
+ 
+.event-cardroot-class-name13 {
+  display: none;
+}
+ 
+.event-cardroot-class-name14 {
+  display: none;
+}
+ 
+.event-cardroot-class-name15 {
+  display: none;
+}
+ 
+@media(max-width: 1440px) {
+  .event-card-event-card2 {
+    height: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container2 {
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+    padding-right: var(--dl-layout-space-halfunit);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text5 {
+    font-size: 1.5em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text6 {
+    font-size: 20px;
+  }
+  .event-card-location2 {
+    font-size: 15px;
+  }
+  .event-card-price-text2 {
+    font-size: 15px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .event-card-event-card2 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .event-card-event-card2 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container2 {
+    gap: 0;
+    width: 475px;
+    justify-content: center;
+  }
+  .event-card-text5 {
+    font-size: 2em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text6 {
+    font-size: 20px;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-location2 {
+    font-size: 20px;
+  }
+  .event-card-price-text2 {
+    font-size: 20px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .event-card-event-card2 {
+    width: 475px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .event-card-container2 {
+    width: 475px;
+    max-width: auto;
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text5 {
+    margin-bottom: 0px;
+  }
+  .event-card-text6 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .event-card-event-card2 {
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .event-card-container2 {
+    width: 445px;
+    max-width: auto;
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text5 {
+    margin-bottom: 0px;
+  }
+  .event-card-text6 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .event-cardroot-class-name2 {
+    display: none;
+  }
+  .event-cardroot-class-name3 {
+    display: none;
+  }
+  .event-cardroot-class-name6 {
+    display: none;
+  }
+  .event-cardroot-class-name9 {
+    display: none;
+  }
+  .event-cardroot-class-name14 {
+    display: none;
+  }
+}
+
+.event-card-wrapper-1jot {
+  display: contents;
+}
+ 
+.event-card-event-card3 {
+  width: 475px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.event-card-container3 {
+  width: 475px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: center;
+}
+ 
+.event-card-text7 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: "Montserrat";
+  margin-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.event-card-text8 {
+  color: var(--dl-color-gray-500);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-layout-space-halfunit);
+  text-transform: uppercase;
+}
+ 
+.event-card-location3 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.event-card-price-text3 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.learn-to-golf-fragment23 {
+  display: contents;
+}
+ 
+.learn-to-golf-text48 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment25 {
+  display: contents;
+}
+ 
+.learn-to-golf-text50 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment22 {
+  display: contents;
+}
+ 
+.learn-to-golf-text47 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment24 {
+  display: contents;
+}
+ 
+.learn-to-golf-text49 {
+  display: inline-block;
+}
+ 
+.event-cardroot-class-name {
+  display: none;
+}
+ 
+.event-cardroot-class-name1 {
+  display: none;
+}
+ 
+.event-cardroot-class-name2 {
+  display: none;
+}
+ 
+.event-cardroot-class-name3 {
+  display: none;
+}
+ 
+.event-cardroot-class-name4 {
+  display: none;
+}
+ 
+.event-cardroot-class-name5 {
+  display: none;
+}
+ 
+.event-cardroot-class-name6 {
+  display: none;
+}
+ 
+.event-cardroot-class-name7 {
+  display: none;
+}
+ 
+.event-cardroot-class-name8 {
+  display: none;
+}
+ 
+.event-cardroot-class-name9 {
+  display: none;
+}
+ 
+.event-cardroot-class-name10 {
+  display: none;
+}
+ 
+.event-cardroot-class-name11 {
+  display: none;
+}
+ 
+.event-cardroot-class-name12 {
+  display: none;
+}
+ 
+.event-cardroot-class-name13 {
+  display: none;
+}
+ 
+.event-cardroot-class-name14 {
+  display: none;
+}
+ 
+.event-cardroot-class-name15 {
+  display: none;
+}
+ 
+@media(max-width: 1440px) {
+  .event-card-event-card3 {
+    height: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container3 {
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+    padding-right: var(--dl-layout-space-halfunit);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text7 {
+    font-size: 1.5em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text8 {
+    font-size: 20px;
+  }
+  .event-card-location3 {
+    font-size: 15px;
+  }
+  .event-card-price-text3 {
+    font-size: 15px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .event-card-event-card3 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .event-card-event-card3 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container3 {
+    gap: 0;
+    width: 475px;
+    justify-content: center;
+  }
+  .event-card-text7 {
+    font-size: 2em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text8 {
+    font-size: 20px;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-location3 {
+    font-size: 20px;
+  }
+  .event-card-price-text3 {
+    font-size: 20px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .event-card-event-card3 {
+    width: 475px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .event-card-container3 {
+    width: 475px;
+    max-width: auto;
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text7 {
+    margin-bottom: 0px;
+  }
+  .event-card-text8 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .event-card-event-card3 {
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .event-card-container3 {
+    width: 445px;
+    max-width: auto;
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text7 {
+    margin-bottom: 0px;
+  }
+  .event-card-text8 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .event-cardroot-class-name2 {
+    display: none;
+  }
+  .event-cardroot-class-name3 {
+    display: none;
+  }
+  .event-cardroot-class-name6 {
+    display: none;
+  }
+  .event-cardroot-class-name9 {
+    display: none;
+  }
+  .event-cardroot-class-name14 {
+    display: none;
+  }
+}
+
+.event-card-wrapper-ex7z {
+  display: contents;
+}
+ 
+.event-card-event-card4 {
+  width: 475px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.event-card-container4 {
+  width: 475px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: center;
+}
+ 
+.event-card-text9 {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: "Montserrat";
+  margin-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.event-card-text10 {
+  color: var(--dl-color-gray-500);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-layout-space-halfunit);
+  text-transform: uppercase;
+}
+ 
+.event-card-location4 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.event-card-price-text4 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+ 
+.learn-to-golf-fragment27 {
+  display: contents;
+}
+ 
+.learn-to-golf-text52 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment29 {
+  display: contents;
+}
+ 
+.learn-to-golf-text54 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment26 {
+  display: contents;
+}
+ 
+.learn-to-golf-text51 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment28 {
+  display: contents;
+}
+ 
+.learn-to-golf-text53 {
+  display: inline-block;
+}
+ 
+.event-cardroot-class-name {
+  display: none;
+}
+ 
+.event-cardroot-class-name1 {
+  display: none;
+}
+ 
+.event-cardroot-class-name2 {
+  display: none;
+}
+ 
+.event-cardroot-class-name3 {
+  display: none;
+}
+ 
+.event-cardroot-class-name4 {
+  display: none;
+}
+ 
+.event-cardroot-class-name5 {
+  display: none;
+}
+ 
+.event-cardroot-class-name6 {
+  display: none;
+}
+ 
+.event-cardroot-class-name7 {
+  display: none;
+}
+ 
+.event-cardroot-class-name8 {
+  display: none;
+}
+ 
+.event-cardroot-class-name9 {
+  display: none;
+}
+ 
+.event-cardroot-class-name10 {
+  display: none;
+}
+ 
+.event-cardroot-class-name11 {
+  display: none;
+}
+ 
+.event-cardroot-class-name12 {
+  display: none;
+}
+ 
+.event-cardroot-class-name13 {
+  display: none;
+}
+ 
+.event-cardroot-class-name14 {
+  display: none;
+}
+ 
+.event-cardroot-class-name15 {
+  display: none;
+}
+ 
+@media(max-width: 1440px) {
+  .event-card-event-card4 {
+    height: auto;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container4 {
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+    padding-right: var(--dl-layout-space-halfunit);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text9 {
+    font-size: 1.5em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text10 {
+    font-size: 20px;
+  }
+  .event-card-location4 {
+    font-size: 15px;
+  }
+  .event-card-price-text4 {
+    font-size: 15px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .event-card-event-card4 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .event-card-event-card4 {
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    background-color: #000000;
+  }
+  .event-card-container4 {
+    gap: 0;
+    width: 475px;
+    justify-content: center;
+  }
+  .event-card-text9 {
+    font-size: 2em;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text10 {
+    font-size: 20px;
+    margin-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-location4 {
+    font-size: 20px;
+  }
+  .event-card-price-text4 {
+    font-size: 20px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .event-card-event-card4 {
+    width: 475px;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .event-card-container4 {
+    width: 475px;
+    max-width: auto;
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text9 {
+    margin-bottom: 0px;
+  }
+  .event-card-text10 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .event-card-event-card4 {
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .event-card-container4 {
+    width: 445px;
+    max-width: auto;
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+  .event-card-text9 {
+    margin-bottom: 0px;
+  }
+  .event-card-text10 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .event-cardroot-class-name2 {
+    display: none;
+  }
+  .event-cardroot-class-name3 {
+    display: none;
+  }
+  .event-cardroot-class-name6 {
+    display: none;
+  }
+  .event-cardroot-class-name9 {
+    display: none;
+  }
+  .event-cardroot-class-name14 {
+    display: none;
+  }
+}
+
+.footer1-wrapper {
+  display: contents;
+}
+ 
+.footer1-footer1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.footer1-max-width {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer1-content {
+  gap: var(--dl-layout-space-fourunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: var(--dl-layout-radius-radius4);
+}
+ 
+.footer1-newsletter {
+  gap: 24px;
+  width: 500px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.footer1-image1 {
+  width: 10vw;
+  text-decoration: none;
+}
+ 
+.footer1-content1 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-actions {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer1-form {
+  height: auto;
+  margin: 0px;
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+}
+ 
+.footer1-container {
+  width: 365px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.footer1-text-input {
+  gap: 8px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  font-size: 16px;
+  box-sizing: content-box;
+  text-align: left;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: transparent;
+}
+ 
+.footer1-button {
+  color: #017a48;
+  transition: 0.3s;
+  border-color: #017a48;
+  text-decoration: none;
+}
+ 
+.footer1-button:hover {
+  color: #000000;
+  border-color: #000000;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.footer1-action1 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-content2 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.footer1-links {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+ 
+.footer1-column1 {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 300px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.footer1-column1-title {
+  font-family: "Montserrat";
+}
+ 
+.footer1-footer-links {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer1-link1 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link21 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link22 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link23 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link24 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-link25 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.footer1-column3 {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 300px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.footer1-social-link1-title {
+  font-family: "Montserrat";
+}
+ 
+.footer1-social-links {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.footer1-link3 {
+  gap: 12px;
+  display: none;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.footer1-social-link1 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-link4 {
+  display: contents;
+}
+ 
+.footer1-link5 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+ 
+.footer1-social-link2 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-link6 {
+  gap: 12px;
+  display: none;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.footer1-social-link3 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-link7 {
+  gap: 12px;
+  display: none;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.footer1-social-link4 {
+  font-family: "Montserrat";
+}
+ 
+.footer1-link8 {
+  display: contents;
+}
+ 
+.footer1-link9 {
+  gap: 12px;
+  display: flex;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+ 
+.footer1-social-link5 {
+  font-family: "Montserrat";
+}
+ 
+.learn-to-golf-fragment35 {
+  display: contents;
+}
+ 
+.learn-to-golf-text60 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment31 {
+  display: contents;
+}
+ 
+.learn-to-golf-text56 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment32 {
+  display: contents;
+}
+ 
+.learn-to-golf-text57 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment39 {
+  display: contents;
+}
+ 
+.learn-to-golf-text64 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment37 {
+  display: contents;
+}
+ 
+.learn-to-golf-text62 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment34 {
+  display: contents;
+}
+ 
+.learn-to-golf-text59 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment36 {
+  display: contents;
+}
+ 
+.learn-to-golf-text61 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment33 {
+  display: contents;
+}
+ 
+.learn-to-golf-text58 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment30 {
+  display: contents;
+}
+ 
+.learn-to-golf-text55 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment38 {
+  display: contents;
+}
+ 
+.learn-to-golf-text63 {
+  display: inline-block;
+}
+ 
+
+ 
+.footer1root-class-name1 {
+  left: 0px;
+  bottom: 0px;
+  position: relative;
+}
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+@media(max-width: 991px) {
+  .footer1-newsletter {
+    width: 300px;
+  }
+  .footer1-container {
+    width: 100%;
+  }
+  .footer1-text-input {
+    width: 100%;
+    padding: var(--dl-layout-space-halfunit);
+  }
+  .footer1-button {
+    width: 100%;
+    padding-top: var(--dl-layout-space-halfunit);
+    padding-left: var(--dl-layout-space-halfunit);
+    padding-right: var(--dl-layout-space-halfunit);
+    padding-bottom: var(--dl-layout-space-halfunit);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .footer1-content {
+    flex-direction: column;
+  }
+  .footer1-newsletter {
+    width: 100%;
+  }
+  .footer1-container {
+    width: 100%;
+  }
+  .footer1-button {
+    width: 208px;
+  }
+  .footer1-links {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer1-column1 {
+    align-items: center;
+  }
+  .footer1-column1-title {
+    text-align: center;
+  }
+  .footer1-footer-links {
+    align-self: center;
+  }
+  .footer1-column3 {
+    align-items: center;
+  }
+  .footer1-social-link1-title {
+    text-align: center;
+  }
+  .footer1-social-links {
+    align-self: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .footer1-actions {
+    width: 100%;
+  }
+  .footer1-container {
+    width: 100%;
+  }
+  .footer1-button {
+    width: 100%;
+  }
+  .footer1-links {
+    flex-direction: column;
+  }
+  .footer1-column1 {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer1-footer-links {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer1-column3 {
+    width: 100%;
+    display: none;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer1-social-links {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.learn-to-golf-container10 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-programs-events {
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-container11 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/external/dsc4-1500w-1500w.jpg");
+}
+ 
+.learn-to-golf-container12 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+ 
+.learn-to-golf-nav-bar {
+  width: 80%;
+  display: flex;
+  z-index: 100;
+  margin-top: 30px;
+  align-items: center;
+  padding-top: var(--dl-layout-space-halfunit);
+  border-color: #000000;
+  border-style: groove;
+  border-width: 3px;
+  padding-left: var(--dl-layout-space-threeunits);
+  border-radius: var(--dl-layout-radius-buttonradius);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-halfunit);
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+ 
+.learn-to-golf-navlink1 {
+  display: contents;
+}
+ 
+.learn-to-golf-image1 {
+  height: 3rem;
+  text-decoration: none;
+}
+ 
+.learn-to-golf-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.learn-to-golf-links1 {
+  gap: var(--dl-layout-space-twounits);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.learn-to-golf-link11 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.learn-to-golf-link21 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.learn-to-golf-link31 {
+  font-family: "Montserrat";
+}
+ 
+.learn-to-golf-link41 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.learn-to-golf-link51 {
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+ 
+.learn-to-golf-buttons1 {
+  gap: var(--dl-layout-space-twounits);
+  display: none;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.learn-to-golf-action21 {
+  color: #000000;
+  display: flex;
+  font-family: "Montserrat";
+  border-color: #000000;
+  flex-direction: row;
+}
+ 
+.learn-to-golf-text10 {
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.learn-to-golf-burger-menu {
+  display: none;
+}
+ 
+.learn-to-golf-icon10 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.learn-to-golf-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-layout-space-twounits);
+  z-index: 100;
+  position: absolute;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: groove;
+  border-width: 3px;
+  border-radius: var(--dl-layout-radius-buttonradius);
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+}
+ 
+.learn-to-golf-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.learn-to-golf-navlink2 {
+  display: contents;
+}
+ 
+.learn-to-golf-logo {
+  height: 3rem;
+  text-decoration: none;
+}
+ 
+.learn-to-golf-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.learn-to-golf-icon12 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.learn-to-golf-links2 {
+  gap: var(--dl-layout-space-unit);
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-link12 {
+  text-decoration: none;
+}
+ 
+.learn-to-golf-link22 {
+  text-decoration: none;
+}
+ 
+.learn-to-golf-link32 {
+  text-decoration: none;
+}
+ 
+.learn-to-golf-link42 {
+  text-decoration: none;
+}
+ 
+.learn-to-golf-link52 {
+  text-decoration: none;
+}
+ 
+.learn-to-golf-buttons2 {
+  gap: var(--dl-layout-space-twounits);
+  display: none;
+  margin-top: var(--dl-layout-space-twounits);
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.learn-to-golf-action22 {
+  color: #000000;
+  border-color: #000000;
+}
+ 
+.learn-to-golf-icon-group {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+}
+ 
+.learn-to-golf-text12 {
+  fill: #bd9d5a;
+  color: rgb(189, 157, 90);
+  font-size: 10vw;
+  font-style: normal;
+  margin-top: var(--dl-layout-space-twounits);
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-shadow: 0px 0px 0px black, /* Right shadow */                 -0px 0px 0px black, /* Left shadow */                 0px 0px 0px black, /* Top shadow */                 2px 2px 0px black;
+  margin-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.learn-to-golf-text13 {
+  font-size: 72px;
+}
+ 
+.learn-to-golf-networking-event {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  margin-top: var(--dl-layout-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-upcoming-events {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-container13 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-unit);
+  flex-direction: column;
+}
+ 
+.learn-to-golf-text15 {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+ 
+.learn-to-golf-max-width {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.learn-to-golf-timeline-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-container15 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.learn-to-golf-container16 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-step11 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container17 {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+  justify-content: flex-start;
+}
+ 
+.learn-to-golf-image2 {
+  height: auto;
+  display: none;
+}
+ 
+.learn-to-golf-container18 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-step12 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container19 {
+  flex: 1;
+  left: var(--dl-layout-space-halfunit);
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container20 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-layout-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: var(--dl-layout-radius-round);
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+ 
+.learn-to-golf-progress01 {
+  width: 3px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+ 
+.learn-to-golf-container21 {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+  justify-content: flex-start;
+}
+ 
+.learn-to-golf-text16 {
+  font-size: 3em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+ 
+.learn-to-golf-text17 {
+  font-style: normal;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+ 
+.learn-to-golf-ul1 {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+ 
+.learn-to-golf-text18 {
+  font-size: 1.4em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+ 
+.learn-to-golf-text19 {
+  font-size: 1.4em;
+  font-family: "Montserrat";
+}
+ 
+.learn-to-golf-text20 {
+  font-size: 1.4em;
+  font-family: "Montserrat";
+}
+ 
+.learn-to-golf-container22 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.learn-to-golf-container23 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.learn-to-golf-container24 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-step13 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container25 {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+  justify-content: flex-start;
+}
+ 
+.learn-to-golf-text22 {
+  font-size: 3em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+ 
+.learn-to-golf-text23 {
+  font-style: normal;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+ 
+.learn-to-golf-ul2 {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+ 
+.learn-to-golf-text24 {
+  font-size: 1.4em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+ 
+.learn-to-golf-text25 {
+  font-size: 1.4em;
+}
+ 
+.learn-to-golf-container26 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.learn-to-golf-container27 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-step14 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container28 {
+  flex: 1;
+  left: var(--dl-layout-space-halfunit);
+  width: auto;
+  height: 370px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container29 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-layout-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: var(--dl-layout-radius-round);
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+ 
+.learn-to-golf-progress02 {
+  width: 3px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+ 
+.learn-to-golf-container30 {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+  justify-content: flex-start;
+}
+ 
+.learn-to-golf-container31 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.learn-to-golf-container32 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-step15 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container33 {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+  justify-content: flex-start;
+}
+ 
+.learn-to-golf-image3 {
+  height: auto;
+}
+ 
+.learn-to-golf-container34 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-step16 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container35 {
+  flex: 1;
+  left: var(--dl-layout-space-halfunit);
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.learn-to-golf-container36 {
+  width: 12px;
+  height: 12px;
+  margin: var(--dl-layout-space-halfunit);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: var(--dl-layout-radius-round);
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+ 
+.learn-to-golf-progress03 {
+  width: 3px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  background-image: linear-gradient(90deg, rgb(189, 157, 90) 1.00%,rgb(239, 227, 148) 100.00%);
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+ 
+.learn-to-golf-container37 {
+  gap: var(--dl-layout-space-unit);
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+  justify-content: flex-start;
+}
+ 
+.learn-to-golf-text27 {
+  font-size: 3em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+ 
+.learn-to-golf-text28 {
+  font-style: normal;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+ 
+.learn-to-golf-ul3 {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+ 
+.learn-to-golf-text29 {
+  font-size: 1.4em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+ 
+.learn-to-golf-text30 {
+  font-size: 1.4em;
+  font-family: "Montserrat";
+}
+ 
+.learn-to-golf-text31 {
+  font-size: 1.4em;
+  font-family: "Montserrat";
+}
+ 
+.learn-to-golf-container38 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.learn-to-golf-container39 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-firest-event-card {
+  text-decoration: none;
+}
+ 
+.learn-to-golf-fragment10 {
+  display: contents;
+}
+ 
+.learn-to-golf-text33 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment11 {
+  display: contents;
+}
+ 
+.learn-to-golf-text34 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment12 {
+  display: contents;
+}
+ 
+.learn-to-golf-text35 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment13 {
+  display: contents;
+}
+ 
+.learn-to-golf-text36 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment14 {
+  display: contents;
+}
+ 
+.learn-to-golf-text37 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment15 {
+  display: contents;
+}
+ 
+.learn-to-golf-text38 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment16 {
+  display: contents;
+}
+ 
+.learn-to-golf-text39 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment17 {
+  display: contents;
+}
+ 
+.learn-to-golf-text40 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-container40 {
+  gap: var(--dl-layout-space-unit);
+  display: none;
+  align-self: center;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+.learn-to-golf-component1 {
+  text-decoration: none;
+}
+ 
+.learn-to-golf-fragment18 {
+  display: contents;
+}
+ 
+.learn-to-golf-text41 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment19 {
+  display: contents;
+}
+ 
+.learn-to-golf-text42 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment20 {
+  display: contents;
+}
+ 
+.learn-to-golf-text43 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment21 {
+  display: contents;
+}
+ 
+.learn-to-golf-text44 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-past-events {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-container41 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.learn-to-golf-text45 {
+  font-size: 3em;
+  font-style: normal;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+ 
+.learn-to-golf-text46 {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+ 
+.learn-to-golf-fragment22 {
+  display: contents;
+}
+ 
+.learn-to-golf-text47 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment23 {
+  display: contents;
+}
+ 
+.learn-to-golf-text48 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment24 {
+  display: contents;
+}
+ 
+.learn-to-golf-text49 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment25 {
+  display: contents;
+}
+ 
+.learn-to-golf-text50 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-container42 {
+  gap: var(--dl-layout-space-unit);
+  display: grid;
+  align-self: center;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+.learn-to-golf-fragment26 {
+  display: contents;
+}
+ 
+.learn-to-golf-text51 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment27 {
+  display: contents;
+}
+ 
+.learn-to-golf-text52 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment28 {
+  display: contents;
+}
+ 
+.learn-to-golf-text53 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment29 {
+  display: contents;
+}
+ 
+.learn-to-golf-text54 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment30 {
+  display: contents;
+}
+ 
+.learn-to-golf-text55 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment31 {
+  display: contents;
+}
+ 
+.learn-to-golf-text56 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment32 {
+  display: contents;
+}
+ 
+.learn-to-golf-text57 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment33 {
+  display: contents;
+}
+ 
+.learn-to-golf-text58 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment34 {
+  display: contents;
+}
+ 
+.learn-to-golf-text59 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment35 {
+  display: contents;
+}
+ 
+.learn-to-golf-text60 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment36 {
+  display: contents;
+}
+ 
+.learn-to-golf-text61 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment37 {
+  display: contents;
+}
+ 
+.learn-to-golf-text62 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment38 {
+  display: contents;
+}
+ 
+.learn-to-golf-text63 {
+  display: inline-block;
+}
+ 
+.learn-to-golf-fragment39 {
+  display: contents;
+}
+ 
+.learn-to-golf-text64 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .learn-to-golf-nav-bar {
+    z-index: 100;
+  }
+  .learn-to-golf-desktop-menu {
+    display: none;
+  }
+  .learn-to-golf-burger-menu {
+    display: flex;
+  }
+  .learn-to-golf-icon10 {
+    width: var(--dl-layout-size-small);
+    height: var(--dl-layout-size-small);
+  }
+  .learn-to-golf-icon12 {
+    width: var(--dl-layout-size-small);
+    height: var(--dl-layout-size-small);
+  }
+  .learn-to-golf-max-width {
+    gap: var(--dl-layout-space-twounits);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .learn-to-golf-nav-bar {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .learn-to-golf-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .learn-to-golf-max-width {
+    flex-direction: column;
+  }
+  .learn-to-golf-timeline-container {
+    width: 100%;
+  }
+  .learn-to-golf-text17 {
+    text-align: left;
+  }
+  .learn-to-golf-text23 {
+    text-align: left;
+  }
+  .learn-to-golf-text28 {
+    text-align: left;
+  }
+  .learn-to-golf-container40 {
+    gap: var(--dl-layout-space-unit);
+    display: none;
+    flex-direction: column;
+  }
+  .learn-to-golf-past-events {
+    margin-top: var(--dl-layout-space-oneandhalfunits);
+  }
+  .learn-to-golf-container42 {
+    gap: var(--dl-layout-space-unit);
+    display: flex;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .learn-to-golf-nav-bar {
+    padding: var(--dl-layout-space-unit);
+    padding-right: 16px;
+  }
+  .learn-to-golf-mobile-menu {
+    padding: var(--dl-layout-space-unit);
+  }
+  .learn-to-golf-max-width {
+    padding: var(--dl-layout-space-unit);
+  }
+  .learn-to-golf-container22 {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .learn-to-golf-container26 {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .learn-to-golf-container38 {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .learn-to-golf-container40 {
+    gap: var(--dl-layout-space-unit);
+    display: none;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LearnToGolf - Golf Insights</title>
+    <meta property="og:title" content="LearnToGolf - Golf Insights" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/logo black-1500h-1500h1.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./learn-to-golf.css" rel="stylesheet" />
+
+      <div class="learn-to-golf-container10">
+        <div class="learn-to-golf-programs-events">
+          <div class="learn-to-golf-container11">
+            <div class="learn-to-golf-container12">
+              <header data-thq="thq-navbar" class="learn-to-golf-nav-bar">
+                <a href="index.html" class="learn-to-golf-navlink1">
+                  <img
+                    alt="Company Logo Alt Text"
+                    src="public/external/logo%20black-1500h-1500h.png"
+                    class="learn-to-golf-image1"
+                  />
+                </a>
+                <div
+                  data-thq="thq-navbar-nav"
+                  class="learn-to-golf-desktop-menu"
+                >
+                  <nav class="learn-to-golf-links1">
+                    <a
+                      href="index.html"
+                      class="learn-to-golf-link11 thq-body-small thq-link"
+                    >
+                      Home
+                    </a>
+                    <a
+                      href="about-us.html"
+                      class="learn-to-golf-link21 thq-body-small thq-link"
+                    >
+                      About Us
+                    </a>
+                    <a
+                      href="learn-to-golf.html"
+                      class="learn-to-golf-link31 thq-body-small thq-link"
+                    >
+                      Learn To Golf
+                    </a>
+                    <a
+                      href="gallery.html"
+                      class="learn-to-golf-link41 thq-body-small thq-link"
+                    >
+                      Gallery
+                    </a>
+                    <a
+                      href="contact-us.html"
+                      class="learn-to-golf-link51 thq-body-small thq-link"
+                    >
+                      Contact Us
+                    </a>
+                  </nav>
+                  <div class="learn-to-golf-buttons1">
+                    <button
+                      class="learn-to-golf-action21 thq-button-animated thq-button-outline"
+                    >
+                      <span class="learn-to-golf-text10">Account</span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  data-thq="thq-burger-menu"
+                  class="learn-to-golf-burger-menu"
+                >
+                  <svg viewBox="0 0 1024 1024" class="learn-to-golf-icon10">
+                    <path
+                      d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+                <div
+                  data-thq="thq-mobile-menu"
+                  class="learn-to-golf-mobile-menu"
+                >
+                  <div class="learn-to-golf-nav">
+                    <div class="learn-to-golf-top">
+                      <a href="index.html" class="learn-to-golf-navlink2">
+                        <img
+                          alt="Company Logo Alt Text"
+                          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/edc71065-55aa-40ce-badc-5aee9845e572/f92da998-69b4-4a65-a3dd-c38ef0fa373c?org_if_sml=1&amp;force_format=original"
+                          class="learn-to-golf-logo"
+                        />
+                      </a>
+                      <div
+                        data-thq="thq-close-menu"
+                        class="learn-to-golf-close-menu"
+                      >
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          class="learn-to-golf-icon12"
+                        >
+                          <path
+                            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <nav class="learn-to-golf-links2">
+                      <a
+                        href="index.html"
+                        class="learn-to-golf-link12 thq-body-small thq-link"
+                      >
+                        Home
+                      </a>
+                      <a
+                        href="about-us.html"
+                        class="learn-to-golf-link22 thq-body-small thq-link"
+                      >
+                        About Us
+                      </a>
+                      <a
+                        href="networking-events.html"
+                        class="learn-to-golf-link32 thq-body-small thq-link"
+                      >
+                        Programs &amp; Events
+                      </a>
+                      <a
+                        href="gallery.html"
+                        class="learn-to-golf-link42 thq-body-small thq-link"
+                      >
+                        Gallery
+                      </a>
+                      <a
+                        href="contact-us.html"
+                        class="learn-to-golf-link52 thq-body-small thq-link"
+                      >
+                        Contact Us
+                      </a>
+                    </nav>
+                    <div class="learn-to-golf-buttons2">
+                      <button class="learn-to-golf-action22 thq-button-outline">
+                        <span>Account</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="learn-to-golf-icon-group">
+                    <svg
+                      viewBox="0 0 950.8571428571428 1024"
+                      class="thq-icon-x-small"
+                    >
+                      <path
+                        d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                      ></path></svg
+                    ><svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="thq-icon-x-small"
+                    >
+                      <path
+                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                      ></path></svg
+                    ><svg
+                      viewBox="0 0 602.2582857142856 1024"
+                      class="thq-icon-x-small"
+                    >
+                      <path
+                        d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </header>
+              <h1 class="learn-to-golf-text12">
+                <span class="learn-to-golf-text13">Learn To Golf</span>
+                <br />
+              </h1>
+            </div>
+          </div>
+          <div class="learn-to-golf-networking-event">
+            <div class="learn-to-golf-upcoming-events">
+              <div class="learn-to-golf-container13">
+                <h1 class="learn-to-golf-text15">
+                  Whether you're new to the game or looking to sharpen your
+                  skills, our programs are designed for all ages and skill
+                  levels. Explore our lessons, clinics, and camps to find the
+                  right fit for your golf journey.
+                </h1>
+                <div class="thq-section-padding">
+                  <div class="learn-to-golf-max-width thq-section-max-width">
+                    <div class="learn-to-golf-timeline-container">
+                      <div class="learn-to-golf-container15">
+                        <div class="learn-to-golf-container16">
+                          <div class="learn-to-golf-step11">
+                            <div class="learn-to-golf-container17">
+                              <img
+                                alt="image"
+                                src="public/Home/Learn To Golf/img_6896-200w.jpg"
+                                class="learn-to-golf-image2 thq-img-ratio-1-1"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="learn-to-golf-container18">
+                          <div class="learn-to-golf-step12">
+                            <div class="learn-to-golf-container19">
+                              <div class="learn-to-golf-container20"></div>
+                              <div class="learn-to-golf-progress01"></div>
+                            </div>
+                            <div class="learn-to-golf-container21">
+                              <h3 class="learn-to-golf-text16 thq-heading-3">
+                                Lessons
+                              </h3>
+                              <h3 class="learn-to-golf-text17 thq-heading-3">
+                                One-on-one or small group sessions tailored to
+                                individual needs.
+                              </h3>
+                              <ul class="learn-to-golf-ul1 list">
+                                <li class="list-item">
+                                  <span class="learn-to-golf-text18">
+                                    Instructor: Kelechi&nbsp;Ezihie
+                                  </span>
+                                </li>
+                                <li class="list-item">
+                                  <span class="learn-to-golf-text19">
+                                    For who:&nbsp;Beginners, intermediate
+                                    players, or those seeking personalized
+                                    instruction.
+                                  </span>
+                                </li>
+                                <li class="list-item">
+                                  <span class="learn-to-golf-text20">
+                                    Duration: 30 Minutes, 60 Minutes and
+                                    multi-session packages available.
+                                  </span>
+                                </li>
+                              </ul>
+                              <div class="learn-to-golf-container22">
+                                <button
+                                  type="button"
+                                  class="thq-button-outline"
+                                >
+                                  <span>Book A Lesson</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="learn-to-golf-container23">
+                        <div class="learn-to-golf-container24">
+                          <div class="learn-to-golf-step13">
+                            <div class="learn-to-golf-container25">
+                              <h3 class="learn-to-golf-text22 thq-heading-3">
+                                Clinics
+                              </h3>
+                              <h3 class="learn-to-golf-text23 thq-heading-3">
+                                Skill-specific group training sessions held
+                                regularly.
+                              </h3>
+                              <ul class="learn-to-golf-ul2 list">
+                                <li class="list-item">
+                                  <span class="learn-to-golf-text24">
+                                    Instructor: Kelechi&nbsp;Ezihie
+                                  </span>
+                                </li>
+                                <li class="list-item">
+                                  <span class="learn-to-golf-text25">
+                                    For who:&nbsp;Players looking to focus on
+                                    specific aspects like putting, chipping,
+                                    driving, etc.
+                                  </span>
+                                </li>
+                              </ul>
+                              <div class="learn-to-golf-container26">
+                                <button
+                                  type="button"
+                                  class="thq-button-outline"
+                                >
+                                  <span>View Upcoming Clinics</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="learn-to-golf-container27">
+                          <div class="learn-to-golf-step14">
+                            <div class="learn-to-golf-container28">
+                              <div class="learn-to-golf-container29"></div>
+                              <div class="learn-to-golf-progress02"></div>
+                            </div>
+                            <div class="learn-to-golf-container30"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="learn-to-golf-container31">
+                        <div class="learn-to-golf-container32">
+                          <div class="learn-to-golf-step15">
+                            <div class="learn-to-golf-container33">
+                              <img
+                                alt="image"
+                                src="public/Home/Learn To Golf/img_6896-200w.jpg"
+                                class="learn-to-golf-image3 thq-img-ratio-1-1"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="learn-to-golf-container34">
+                          <div class="learn-to-golf-step16">
+                            <div class="learn-to-golf-container35">
+                              <div class="learn-to-golf-container36"></div>
+                              <div class="learn-to-golf-progress03"></div>
+                            </div>
+                            <div class="learn-to-golf-container37">
+                              <h3 class="learn-to-golf-text27 thq-heading-3">
+                                Camps
+                              </h3>
+                              <h3 class="learn-to-golf-text28 thq-heading-3">
+                                Multi-day immersive experiences perfect for
+                                juniors or group learning.
+                              </h3>
+                              <ul class="learn-to-golf-ul3 list">
+                                <li class="list-item">
+                                  <span class="learn-to-golf-text29">
+                                    Instructor: Kelechi&nbsp;Ezihie
+                                  </span>
+                                </li>
+                                <li class="list-item">
+                                  <span class="learn-to-golf-text30">
+                                    For who:&nbsp;Kids, teens, and adults
+                                    wanting a more in-depth golf experience.
+                                  </span>
+                                </li>
+                                <li class="list-item">
+                                  <span class="learn-to-golf-text31">
+                                    Duration: 30 Minutes, 60 Minutes and
+                                    multi-session packages available.
+                                  </span>
+                                </li>
+                              </ul>
+                              <div class="learn-to-golf-container38">
+                                <button
+                                  type="button"
+                                  class="thq-button-outline"
+                                >
+                                  <span>Explore Camp Options</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="learn-to-golf-container39"></div>
+              <event-card-wrapper
+                class="learn-to-golf-firest-event-card"
+                rootclassname="event-cardundefined"
+              >
+                <!--EventCard component-->
+                <div class="event-card-event-card event-cardroot-class-name13">
+                  <div class="event-card-container">
+                    <h1 class="event-card-text1">
+                      <fragment class="learn-to-golf-fragment11">
+                        <span class="learn-to-golf-text34">
+                          More Golf Less Ego
+                        </span>
+                      </fragment>
+                    </h1>
+                    <span class="event-card-text2">
+                      <fragment class="learn-to-golf-fragment10">
+                        <span class="learn-to-golf-text33">
+                          Sun, Jan 19th 5PM
+                        </span>
+                      </fragment>
+                    </span>
+                    <span class="event-card-location">
+                      <fragment class="learn-to-golf-fragment12">
+                        <span class="learn-to-golf-text35">Brooklyn NY</span>
+                      </fragment>
+                    </span>
+                    <span class="event-card-price-text">
+                      <fragment class="learn-to-golf-fragment13">
+                        <span class="learn-to-golf-text36">$60</span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </event-card-wrapper>
+              <event-card-wrapper-4n55
+                class="event-card-wrapper-4n55"
+                rootclassname="event-cardundefined"
+              >
+                <!--EventCard component-->
+                <div class="event-card-event-card1 event-cardroot-class-name14">
+                  <div class="event-card-container1">
+                    <h1 class="event-card-text3">
+                      <fragment class="learn-to-golf-fragment15">
+                        <span class="learn-to-golf-text38">Default value</span>
+                      </fragment>
+                    </h1>
+                    <span class="event-card-text4">
+                      <fragment class="learn-to-golf-fragment14">
+                        <span class="learn-to-golf-text37">Default value</span>
+                      </fragment>
+                    </span>
+                    <span class="event-card-location1">
+                      <fragment class="learn-to-golf-fragment16">
+                        <span class="learn-to-golf-text39">Default value</span>
+                      </fragment>
+                    </span>
+                    <span class="event-card-price-text1">
+                      <fragment class="learn-to-golf-fragment17">
+                        <span class="learn-to-golf-text40">Default value</span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </event-card-wrapper-4n55>
+              <div class="learn-to-golf-container40">
+                <event-card-wrapper-ugui class="learn-to-golf-component1">
+                  <!--EventCard component-->
+                  <div class="event-card-event-card2 event-card">
+                    <div class="event-card-container2">
+                      <h1 class="event-card-text5">
+                        <fragment class="learn-to-golf-fragment19">
+                          <span class="learn-to-golf-text42">
+                            More Golf Less Ego
+                          </span>
+                        </fragment>
+                      </h1>
+                      <span class="event-card-text6">
+                        <fragment class="learn-to-golf-fragment18">
+                          <span class="learn-to-golf-text41">
+                            Sun, Jan 19th 5PM
+                          </span>
+                        </fragment>
+                      </span>
+                      <span class="event-card-location2">
+                        <fragment class="learn-to-golf-fragment20">
+                          <span class="learn-to-golf-text43">Brooklyn NY</span>
+                        </fragment>
+                      </span>
+                      <span class="event-card-price-text2">
+                        <fragment class="learn-to-golf-fragment21">
+                          <span class="learn-to-golf-text44">$40</span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                </event-card-wrapper-ugui>
+              </div>
+            </div>
+            <div class="learn-to-golf-past-events">
+              <div class="learn-to-golf-container41">
+                <h1 class="learn-to-golf-text45">Past Events</h1>
+                <h1 class="learn-to-golf-text46">
+                  Connect with professionals and enthusiasts through exclusive
+                  golf experiences.
+                </h1>
+              </div>
+              <event-card-wrapper-1jot
+                class="event-card-wrapper-1jot"
+                rootclassname="event-cardundefined"
+              >
+                <!--EventCard component-->
+                <div class="event-card-event-card3 event-cardroot-class-name15">
+                  <div class="event-card-container3">
+                    <h1 class="event-card-text7">
+                      <fragment class="learn-to-golf-fragment23">
+                        <span class="learn-to-golf-text48">Default value</span>
+                      </fragment>
+                    </h1>
+                    <span class="event-card-text8">
+                      <fragment class="learn-to-golf-fragment22">
+                        <span class="learn-to-golf-text47">Default value</span>
+                      </fragment>
+                    </span>
+                    <span class="event-card-location3">
+                      <fragment class="learn-to-golf-fragment24">
+                        <span class="learn-to-golf-text49">Default value</span>
+                      </fragment>
+                    </span>
+                    <span class="event-card-price-text3">
+                      <fragment class="learn-to-golf-fragment25">
+                        <span class="learn-to-golf-text50">Default value</span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </event-card-wrapper-1jot>
+              <div class="learn-to-golf-container42">
+                <event-card-wrapper-ex7z class="event-card-wrapper-ex7z">
+                  <!--EventCard component-->
+                  <div class="event-card-event-card4 event-card">
+                    <div class="event-card-container4">
+                      <h1 class="event-card-text9">
+                        <fragment class="learn-to-golf-fragment27">
+                          <span class="learn-to-golf-text52">
+                            Default value
+                          </span>
+                        </fragment>
+                      </h1>
+                      <span class="event-card-text10">
+                        <fragment class="learn-to-golf-fragment26">
+                          <span class="learn-to-golf-text51">
+                            Default value
+                          </span>
+                        </fragment>
+                      </span>
+                      <span class="event-card-location4">
+                        <fragment class="learn-to-golf-fragment28">
+                          <span class="learn-to-golf-text53">
+                            Default value
+                          </span>
+                        </fragment>
+                      </span>
+                      <span class="event-card-price-text4">
+                        <fragment class="learn-to-golf-fragment29">
+                          <span class="learn-to-golf-text54">
+                            Default value
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                </event-card-wrapper-ex7z>
+              </div>
+            </div>
+          </div>
+          <footer1-wrapper
+            class="footer1-wrapper"
+            rootclassname="footer1undefined"
+          >
+            <!--Footer1 component-->
+            <footer
+              class="footer1-footer1 thq-section-padding footer1root-class-name14"
+            >
+              <div class="footer1-max-width thq-section-max-width">
+                <div class="footer1-content">
+                  <div class="footer1-newsletter">
+                    <img
+                      alt="Golf Connect Logo"
+                      src="public/external/logo%20black-200h-200h.png"
+                      class="footer1-image1"
+                    />
+                    <span class="footer1-content1 thq-body-small">
+                      Subscribe to our newsletter for the latest updates on
+                      coming events, programs and more.
+                    </span>
+                    <div class="footer1-actions">
+                      <form
+                        action="http://golfinsights.ombrain.org/newsletter-statment.php"
+                        method="POST"
+                        enctype="multipart/form-data"
+                        class="footer1-form"
+                      >
+                        <div class="footer1-container">
+                          <input
+                            type="email"
+                            name="Email"
+                            placeholder="Enter your email"
+                            class="footer1-text-input thq-input"
+                          />
+                        </div>
+                        <a
+                          href="newsletter-statment.html"
+                          value="Upload"
+                          class="footer1-button thq-button-outline"
+                        >
+                          <span class="footer1-action1 thq-body-small">
+                            <fragment class="learn-to-golf-fragment33">
+                              <span class="learn-to-golf-text58">
+                                Subscribe to Newsletter
+                              </span>
+                            </fragment>
+                          </span>
+                        </a>
+                      </form>
+                      <span class="footer1-content2 thq-body-small">
+                        <fragment class="learn-to-golf-fragment37">
+                          <span class="learn-to-golf-text62">
+                            Stay updated with our latest news and events by
+                            subscribing to our newsletter.
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="footer1-links">
+                    <div class="footer1-column1">
+                      <strong class="footer1-column1-title thq-body-large">
+                        <fragment class="learn-to-golf-fragment38">
+                          <span class="learn-to-golf-text63">Company</span>
+                        </fragment>
+                      </strong>
+                      <div class="footer1-footer-links">
+                        <a
+                          href="about-us.html"
+                          class="footer1-link1 thq-body-small"
+                        >
+                          <fragment class="learn-to-golf-fragment30">
+                            <span class="learn-to-golf-text55">About Us</span>
+                          </fragment>
+                        </a>
+                        <a
+                          href="contact-us.html"
+                          class="footer1-link21 thq-body-small"
+                        >
+                          <fragment class="learn-to-golf-fragment31">
+                            <span class="learn-to-golf-text56">Contact Us</span>
+                          </fragment>
+                        </a>
+                        <a
+                          href="networking-events.html"
+                          class="footer1-link22 thq-body-small"
+                        >
+                          <fragment class="learn-to-golf-fragment32">
+                            <span class="learn-to-golf-text57">
+                              Programs &amp; Events
+                            </span>
+                          </fragment>
+                        </a>
+                        <a
+                          href="golf-clinics.html"
+                          class="footer1-link23 thq-body-small"
+                        >
+                          <fragment class="learn-to-golf-fragment36">
+                            <span class="learn-to-golf-text61">
+                              Golf Clinics
+                            </span>
+                          </fragment>
+                        </a>
+                        <a
+                          href="tournaments.html"
+                          class="footer1-link24 thq-body-small"
+                        >
+                          <fragment class="learn-to-golf-fragment35">
+                            <span class="learn-to-golf-text60">
+                              Tournaments
+                            </span>
+                          </fragment>
+                        </a>
+                        <a
+                          href="gallery.html"
+                          class="footer1-link25 thq-body-small"
+                        >
+                          <fragment class="learn-to-golf-fragment34">
+                            <span class="learn-to-golf-text59">Gallery</span>
+                          </fragment>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="footer1-column3">
+                      <strong class="footer1-social-link1-title thq-body-large">
+                        <fragment class="learn-to-golf-fragment39">
+                          <span class="learn-to-golf-text64">Follow Us</span>
+                        </fragment>
+                      </strong>
+                      <div class="footer1-social-links">
+                        <div class="footer1-link3">
+                          <svg
+                            viewBox="0 0 877.7142857142857 1024"
+                            class="thq-icon-small"
+                          >
+                            <path
+                              d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                            ></path>
+                          </svg>
+                          <span class="footer1-social-link1 thq-body-small">
+                            Facebook
+                          </span>
+                        </div>
+                        <a
+                          href="https://www.instagram.com/golf__insights/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="footer1-link4"
+                        >
+                          <div class="footer1-link5">
+                            <svg
+                              viewBox="0 0 877.7142857142857 1024"
+                              class="thq-icon-small"
+                            >
+                              <path
+                                d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                              ></path>
+                            </svg>
+                            <span class="footer1-social-link2 thq-body-small">
+                              Instagram
+                            </span>
+                          </div>
+                        </a>
+                        <div class="footer1-link6">
+                          <svg
+                            viewBox="0 0 950.8571428571428 1024"
+                            class="thq-icon-small"
+                          >
+                            <path
+                              d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                            ></path>
+                          </svg>
+                          <span class="footer1-social-link3 thq-body-small">
+                            X
+                          </span>
+                        </div>
+                        <div class="footer1-link7">
+                          <svg
+                            viewBox="0 0 877.7142857142857 1024"
+                            class="thq-icon-small"
+                          >
+                            <path
+                              d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                            ></path>
+                          </svg>
+                          <span class="footer1-social-link4 thq-body-small">
+                            LinkedIn
+                          </span>
+                        </div>
+                        <a
+                          href="https://www.youtube.com/@Golf__insights"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="footer1-link8"
+                        >
+                          <div class="footer1-link9">
+                            <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                              <path
+                                d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"
+                              ></path>
+                            </svg>
+                            <span class="footer1-social-link5 thq-body-small">
+                              Youtube
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </footer1-wrapper>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
