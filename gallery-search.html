@@ -236,8 +236,11 @@
           });
         }
         else if(social && social.items && social.subfolders && HrefEventString == "event") {
+          console.debug("Category Done");
           social.subfolders.forEach(sub => {
+            console.debug("Sub Folders Done");
             if (sub.items) {
+              console.debug("Items Loaded");
               sub.items.forEach(sub_img => {
                 const EventImg = document.createElement('img');
                 EventImg.className = 'gallery-search-gallery-img'; // Set the class name
