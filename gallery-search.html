@@ -235,7 +235,7 @@
             
           });
         }
-        else if(social && social.items && social.subfolders && HrefEventString == "event") {
+        if(social && social.items && social.subfolders && HrefEventString == "event") {
           console.debug("Category Done");
           social.subfolders.forEach(sub => {
             console.debug("Sub Folders Done");
