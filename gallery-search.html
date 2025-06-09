@@ -235,20 +235,14 @@
             
           });
         }
-        if(social && social.items && social.subfolders && HrefEventString == "event") {
+        if(social && social.items && HrefEventString == "event") {
           console.debug("Category Done");
-          social.subfolders.forEach(sub => {
-            console.debug("Sub Folders Done");
-            if (sub.items) {
-              console.debug("Items Loaded");
-              sub.items.forEach(sub_img => {
+            sub.items.forEach(sub_img => {
                 const EventImg = document.createElement('img');
                 EventImg.className = 'gallery-search-gallery-img'; // Set the class name
                 EventImg.src = `https://www.golfinsights.org/Gallery/${Parent_OfEventFolder.folder}/${HrefEvent}/${sub_img}`;
                 EventDiv.appendChild(EventImg);
-              });
-            }
-          });
+            });
         }
       })
       .catch(error => console.error("Error loading JSON:", error));
