@@ -192,5 +192,80 @@
     <script
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script></body
+    ></script>
+    
+    <script>
+      <!--Get the URL-->
+      const params = new URLSearchParams(window.location.search);
+      const categoryDiv = document.getElementById("EventSort");
+      
+
+      //Get the JOSN FILE
+      fetch('FolderDir.json')
+      .then(response => response.json())
+      .then(data => {
+        // Use the URL to find the Folder for the event or within the category
+        const url = window.location.href;
+        let HrefEvent;
+        let HrefEventString;
+        //This is where the Gallery will be referenced
+        if (url.includes("?event=")) {
+          HrefEvent = params.get('event');
+          HrefEventString = "event";
+        } 
+        //This is where the Events from the Categories will be referenced
+        else if(url.includes("?category=")){
+          //Reveals the div
+          categoryDiv.style.display = "inline-grid";
+          //Gets the name of the folder via the url
+          HrefEvent = params.get('category');
+          HrefEventString = "category";
+        }
+
+        //Getting the Category
+        const social = data.find(item => item.folder === HrefEvent);
+
+        //This is referencing the category path leading into the event
+        if(social && social.items && social.subfolders && HrefEventString == "category") {
+          social.subfolders.forEach(sub => {
+            //If HrefEventString equals category, we load the slots
+            //We write the HTML with JavaScript
+
+            //Create a link to the Event Gallery
+            const EventLink = document.createElement('a');
+            //Must get the JSON File associated to get the correct link with the correct button
+            EventLink.href = 'https://www.golfinsights.org/gallery-search.html?event=' + encodeURIComponent(sub.folder);
+            EventLink.target = '_blank';                         // open in a new tab
+            EventLink.rel = 'noopener noreferrer';               // security best practice
+            //Must put it inside
+            categoryDiv.appendChild(EventLink);
+
+            //Create image div
+            const EventHeroImg = document.createElement('div');
+            EventHeroImg.id = sub.folder.replace(/\s+/g, '-').toLowerCase() + "_Div"; // Set the ID CHANGE ID NAME!!!!!!!!!!!!!!!!!!
+            EventHeroImg.className = 'gallery-search-event'; // Set the class name
+            //Giving the Div the image
+            EventHeroImg.style.backgroundImage = `url('https://www.golfinsights.org/Gallery/${HrefEvent}/${sub.folder}.jpg')`;
+            //Put it inside the EventLink
+            EventLink.appendChild(EventHeroImg);
+
+            //Create the Title inside the image div
+            const EventTitle = document.createElement('h1');
+            EventTitle.id = sub.folder.replace(/\s+/g, '-').toLowerCase() + "_Title"; // Set the ID CHANGE ID NAME!!!!!!!!!!!!!!!!!!
+            EventTitle.className = 'gallery-search-title'; // Set the class name
+            EventTitle.textContent = sub.folder.replaceAll('-', ' ').toUpperCase(); // This sets the visible text
+            EventHeroImg.appendChild(EventTitle);
+            
+          });
+        }
+      })
+      .catch(error => console.error("Error loading JSON:", error));
+
+
+
+
+
+    </script>
+    
+    </body
 ></html>
