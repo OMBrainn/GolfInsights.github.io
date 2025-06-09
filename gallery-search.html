@@ -180,7 +180,6 @@
         const url = window.location.href;
         let HrefEvent;
         let HrefEventString;
-        let social = null;
         //This is where the Gallery will be referenced
         if (url.includes("?event=")) {
           //Reveals the div
@@ -192,15 +191,15 @@
         //This is where the Events from the Categories will be referenced
         else if(url.includes("?category=")){
           
-          //Getting the Category
-          social = data.find(item => item.folder === HrefEvent);
           //Reveals the div
           categoryDiv.style.display = "inline-grid";
           //Gets the name of the folder via the url
           HrefEvent = params.get('category');
           HrefEventString = "category";
         }
-
+        
+        //Getting the Category
+        const social = data.find(item => item.folder === HrefEvent);
         //const Parent_OfEventFolder = data.find(parent => parent.subfolders?.some(sub => sub.folder === HrefEvent));
 
         //This is referencing the category path leading into the event
