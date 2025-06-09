@@ -243,7 +243,7 @@
             //Create image div
             const EventHeroImg = document.createElement('div');
             EventHeroImg.id = sub.folder.replace(/\s+/g, '-').toLowerCase() + "_Div"; // Set the ID CHANGE ID NAME!!!!!!!!!!!!!!!!!!
-            EventHeroImg.className = 'gallery-search-event'; // Set the class name
+            EventHeroImg.className = 'gallery-search-event2'; // Set the class name
             //Giving the Div the image
             EventHeroImg.style.backgroundImage = `url('https://www.golfinsights.org/Gallery/${HrefEvent}/${sub.folder}.jpg')`;
             //Put it inside the EventLink
@@ -252,7 +252,8 @@
             //Create the Title inside the image div
             const EventTitle = document.createElement('h1');
             EventTitle.id = sub.folder.replace(/\s+/g, '-').toLowerCase() + "_Title"; // Set the ID CHANGE ID NAME!!!!!!!!!!!!!!!!!!
-            EventTitle.className = 'gallery-search-title'; // Set the class name
+            EventTitle.className = 'gallery-search-title2'; // Set the class name
+            EventTitle.style.alignSelf = 'normal';
             EventTitle.textContent = sub.folder.replaceAll('-', ' ').toUpperCase(); // This sets the visible text
             EventHeroImg.appendChild(EventTitle);
             
