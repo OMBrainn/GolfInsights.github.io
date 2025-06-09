@@ -1,0 +1,30 @@
+[
+  {
+    "folder": "EXECUTIVE-MASTERCALSSES"
+  },
+  {
+    "folder": "GOLF-LESSONS"
+  },
+  {
+    "folder": "SOCIAL-EXPERIENCES",
+    "items": [
+        "Launch.jpg",
+        "More-Golf-Less-Ego.jpg",
+        "Afro-Golf.jpg"
+    ],
+    "subfolders": [
+      { "folder": "Launch",
+            "items": [
+                "img1.jpg",
+                "img2.jpg"
+            ] 
+        },
+      { "folder": "More-Golf-Less-Ego" },
+      { "folder": "Afro-Golf" }
+    ]
+},
+{
+    "folder": "YOUTH-PROGRAMS"
+}
+  
+]
