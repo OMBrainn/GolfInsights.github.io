@@ -170,7 +170,7 @@
       <!--Get the URL-->
       const params = new URLSearchParams(window.location.search);
       const categoryDiv = document.getElementById("EventSort");
-      
+      const EventDiv = document.getElementById("EventGallery");
 
       //Get the JOSN FILE
       fetch('FolderDir.json')
@@ -182,6 +182,9 @@
         let HrefEventString;
         //This is where the Gallery will be referenced
         if (url.includes("?event=")) {
+          //Reveals the div
+          EventDiv.style.display = "inline-grid";
+          //Gets the name of the folder via the url
           HrefEvent = params.get('event');
           HrefEventString = "event";
         } 
@@ -229,6 +232,17 @@
             EventTitle.textContent = sub.folder.replaceAll('-', ' ').toUpperCase(); // This sets the visible text
             EventHeroImg.appendChild(EventTitle);
             
+          });
+        }
+        else if(social && social.items && social.subfolders && HrefEventString == "event") {
+          social.subfolders.forEach(sub => {
+            if (sub.items) {
+              sub.items.forEach((file, index) => {
+                const EventImg = document.createElement('img');
+                EventHeroImg.className = 'gallery-search-gallery-img'; // Set the class name
+                EventImg.src = filePath;
+              });
+            }
           });
         }
       })
