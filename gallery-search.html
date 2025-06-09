@@ -223,7 +223,6 @@
             const EventLink = document.createElement('a');
             //Must get the JSON File associated to get the correct link with the correct button
             EventLink.href = `https://www.golfinsights.org/gallery-search.html?event=${encodeURIComponent(sub.folder)}`;
-            EventLink.target = '_blank';                         // open in a new tab
             EventLink.rel = 'noopener noreferrer';               // security best practice
             //Must put it inside
             categoryDiv.appendChild(EventLink);

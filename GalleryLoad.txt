@@ -58,7 +58,6 @@
             const EventLink = document.createElement('a');
             //Must get the JSON File associated to get the correct link with the correct button
             EventLink.href = `https://www.golfinsights.org/gallery-search.html?event=${encodeURIComponent(sub.folder)}`;
-            EventLink.target = '_blank';                         // open in a new tab
             EventLink.rel = 'noopener noreferrer';               // security best practice
             //Must put it inside
             categoryDiv.appendChild(EventLink);
@@ -87,7 +86,7 @@
           console.debug("Category Done");
             subSocial.items.forEach(sub_img => {
                 const EventImg = document.createElement('img');
-                EventImg.className = 'gallery-search-gallery-img'; // Set the class name
+                EventImg.className = 'gallery-search-gallery-img2'; // Set the class name
                 EventImg.src = `https://www.golfinsights.org/Gallery/${Parent_OfEventFolder.folder}/${HrefEvent}/${sub_img}`;
                 EventImg.loading = "lazy";
                 EventDiv.appendChild(EventImg);
